@@ -1,0 +1,30 @@
+
+@media (max-width:1800px) {
+#lg {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#sm{
+    display: none;
+}
+
+}
+
+@media (max-width:400px) {
+   
+    #sm {
+            display: none;
+        }
+
+        #lg {
+            margin-top: 280px;
+                text-align: center;
+                font-size: 15px;
+                font-weight: bold;
+        }
+
+}
